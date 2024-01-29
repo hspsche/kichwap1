@@ -16,12 +16,12 @@ export { Test1 }
 {selectedItem ? <div>{selectedItem.quiz}</div> :
                     <>
                         {db.map((item) => (
-                            <QuizCard 
+                            /* <QuizCard 
                                 key={item.id}
                                 title={item.title}
                                 description={item.description}
                                 onClick={() => setSelectedItem(item)}
-                            />
+                            /> */
                         ))} 
                     </>                    
                 }  
@@ -29,12 +29,12 @@ export { Test1 }
                 {selectedComponent ? <div>{selectedItem.quiz}</div> :
                     <>
                         {db.map((item) => (
-                            <Card 
+                            /* <Card 
                                 key={item.id}
                                 title={item.title}
                                 description={item.description}
                                 onClick={() => setSelectetComponent(item)}
-                            />
+                            /> */
                         ))} 
                     </>                    
                 }
